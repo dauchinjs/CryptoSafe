@@ -72,18 +72,23 @@ class CryptoController
     public function buySell(int $id, BuySellRequest $request): RedirectResponse
     {
         $account = Account::where('number', $request->get('account'))->firstOrFail();
+        $coin = $this->cryptoService->getCryptoById($id);
+        $userId = $account->user_id;
+
+        $user = User::where('id', $userId)->first();
+        $cryptos = Crypto::where('account_number', $account->number)->where('symbol', $coin['symbol'])->get();
 
         if ($request->get('buy') != null) {
             $amount = $request->get('buy');
         } else {
             $amount = $request->get('sell');
         }
-        $coin = $this->cryptoService->getCryptoById($id);
+
         $price = $coin['quote']['EUR']['price'] * 100;
         $totalPrice = $price * $amount;
 
         if ($request->get('buy') != null) {
-            if ($totalPrice > $account->balance) {
+            if ($totalPrice > $account->balance && json_decode($cryptos)[0]->amount >= 0) {
                 return redirect()->back()->with('error', 'Not enough money');
             }
         }
@@ -99,10 +104,6 @@ class CryptoController
             $convertedPrice = $price;
         }
 
-        $userId = $account->user_id;
-
-        $user = User::where('id', $userId)->first();
-        $cryptos = Crypto::where('account_number', $account->number)->where('symbol', $coin['symbol'])->get();
 
         if ($cryptos->count() == 0) {
             $ownedAmount = 0;
@@ -111,7 +112,7 @@ class CryptoController
         } else {
             $ownedAmount = json_decode($cryptos)[0]->amount;
             $ownedPrice = json_decode($cryptos)[0]->price;
-            if($ownedAmount + $amount == 0) {
+            if ($ownedAmount + $amount == 0) {
                 $averagePrice = $convertedPrice * $amount;
             } else {
                 $averagePrice = ($ownedPrice * $ownedAmount + $convertedPrice * $amount) / ($ownedAmount + $amount);

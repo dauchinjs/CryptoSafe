@@ -57,8 +57,13 @@
 
                     <div>
                         <h2 class="text-right text-l font-semibold mb-2">Total profit:
-                            <span class="text-green-500" style="color: #00C853"
-                                  @if($totalProfitFormatted < 0) style="color: #ff4444" @endif>€{{ $totalProfitFormatted }}</span>
+                            @if($totalProfitFormatted < 0)
+                                <span class="text-red-500">€{{ $totalProfitFormatted }}</span>
+                            @elseif($totalProfitFormatted > 0)
+                                <span class="text-green-500">€{{ $totalProfitFormatted }}</span>
+                            @else
+                                <span>€{{ $totalProfitFormatted }}</span>
+                            @endif
                         </h2>
                     </div>
 
