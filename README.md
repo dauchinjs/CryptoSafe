@@ -28,6 +28,6 @@ Project is created with:
 1. Clone this repository git clone `https://github.com/dauchinjs/CryptoSafe.git`
 2. Install all dependencies: `composer install` and `npm install`
 3. Create a database and rename the `.env.example` file to `.env` and add your credentials
-4. To get the API keys: `[CoinMarketCap](https://coinmarketcap.com/)` and `[Exchange Rates API](https://exchangeratesapi.io/)`
+4. To get the API keys: [CoinMarketCap](https://coinmarketcap.com/) and [Exchange Rates API](https://exchangeratesapi.io/)
 5. To get the databases, use command `php artisan migrate` in the terminal
 6. To run the project use `php artisan serve` in terminal.
