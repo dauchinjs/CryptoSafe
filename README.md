@@ -8,6 +8,6 @@
 
 ## General info
 
-This project uses an API key from ![CoinMarketCap](https://coinmarketcap.com/)
+This project uses an API key from [CoinMarketCap](https://coinmarketcap.com/)
 
 ## Demonstration
