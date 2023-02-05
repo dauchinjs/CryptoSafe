@@ -16,6 +16,21 @@ This project uses API keys from [CoinMarketCap](https://coinmarketcap.com/) for 
 ### Home page
 ![home page](https://github.com/dauchinjs/CryptoSafe/blob/main/crypto-bank-demonst/home-page.png)
 
+### Account activities (create, edit, delete)
+![accounts](https://github.com/dauchinjs/CryptoSafe/blob/main/crypto-bank-demonst/accounts.gif)
+
+### Buy and sell cryptocurrencies
+![buy-sell](https://github.com/dauchinjs/CryptoSafe/blob/main/crypto-bank-demonst/buy-sell.gif)
+
+### Transfer cryptocurrencies
+![crypto-transfer](https://github.com/dauchinjs/CryptoSafe/blob/main/crypto-bank-demonst/crypto-transfer.gif)
+
+### Transfer balance
+![balance-transfer](https://github.com/dauchinjs/CryptoSafe/blob/main/crypto-bank-demonst/balance-transfer.gif)
+
+### Cryptocurrency and balance transactions
+![transactions](https://github.com/dauchinjs/CryptoSafe/blob/main/crypto-bank-demonst/transactions.gif)
+
 ## Technologies
 
 Project is created with:
