@@ -25,7 +25,7 @@ Project is created with:
 
 ## Setup
 
-1. Clone this repository git clone `https://github.com/dauchinjs/CryptoSafe.git`
+1. Clone this repository `git clone https://github.com/dauchinjs/CryptoSafe.git`
 2. Install all dependencies: `composer install` and `npm install`
 3. Create a database and rename the `.env.example` file to `.env` and add your credentials
 4. To get the API keys: [CoinMarketCap](https://coinmarketcap.com/) and [Exchange Rates API](https://exchangeratesapi.io/)
