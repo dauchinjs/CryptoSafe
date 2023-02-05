@@ -12,6 +12,7 @@ use App\Services\CurrencyConversionService;
 use App\Services\TransactionService;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
 class CryptoController
@@ -59,12 +60,14 @@ class CryptoController
     public function show(int $id)
     {
         $coin = $this->cryptoService->getCryptoById($id);
-        $cryptos = Crypto::all();
+
+        $myCryptos = Crypto::where('symbol', $coin['symbol'])->where('user_id', Auth::id())->get();
+//        var_dump($myCryptos);die;
 
         return view('crypto.show',
             [
                 'coin' => $coin,
-                'cryptos' => $cryptos
+                'myCryptos' => $myCryptos
             ]
         );
     }
