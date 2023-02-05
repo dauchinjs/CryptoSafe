@@ -13,6 +13,8 @@ This project uses API keys from [CoinMarketCap](https://coinmarketcap.com/) for 
 
 ## Demonstration
 
+### Home page
+![home page](https://github.com/dauchinjs/CryptoSafe/tree/main/crypto-bank-demonst)
 
 ## Technologies
 
