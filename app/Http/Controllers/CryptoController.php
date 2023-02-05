@@ -62,7 +62,6 @@ class CryptoController
         $coin = $this->cryptoService->getCryptoById($id);
 
         $myCryptos = Crypto::where('symbol', $coin['symbol'])->where('user_id', Auth::id())->get();
-//        var_dump($myCryptos);die;
 
         return view('crypto.show',
             [
