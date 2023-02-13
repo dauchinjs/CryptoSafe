@@ -1,245 +1,205 @@
 <CRates>
-    <Date>20010323</Date>
+    <Date>20131231</Date>
     <Currencies>
         <Currency>
             <ID>AED</ID>
             <Units>1</Units>
-            <Rate>0.17200000</Rate>
-        </Currency>
-        <Currency>
-            <ID>ATS</ID>
-            <Units>1</Units>
-            <Rate>0.04102750</Rate>
+            <Rate>0.14000000</Rate>
         </Currency>
         <Currency>
             <ID>AUD</ID>
             <Units>1</Units>
-            <Rate>0.31100000</Rate>
-        </Currency>
-        <Currency>
-            <ID>AZM</ID>
-            <Units>1000</Units>
-            <Rate>0.13700000</Rate>
-        </Currency>
-        <Currency>
-            <ID>BEF</ID>
-            <Units>1</Units>
-            <Rate>0.01399490</Rate>
+            <Rate>0.45700000</Rate>
         </Currency>
         <Currency>
             <ID>BGN</ID>
             <Units>1</Units>
-            <Rate>0.29000000</Rate>
+            <Rate>0.35900000</Rate>
         </Currency>
         <Currency>
             <ID>BYR</ID>
             <Units>1000</Units>
-            <Rate>0.49300000</Rate>
+            <Rate>0.05430000</Rate>
         </Currency>
         <Currency>
             <ID>CAD</ID>
             <Units>1</Units>
-            <Rate>0.40000000</Rate>
+            <Rate>0.48300000</Rate>
         </Currency>
         <Currency>
             <ID>CHF</ID>
             <Units>1</Units>
-            <Rate>0.36800000</Rate>
+            <Rate>0.57300000</Rate>
         </Currency>
         <Currency>
-            <ID>CYP</ID>
+            <ID>CNY</ID>
             <Units>1</Units>
-            <Rate>0.97500000</Rate>
+            <Rate>0.08490000</Rate>
         </Currency>
         <Currency>
             <ID>CZK</ID>
             <Units>1</Units>
-            <Rate>0.01630000</Rate>
-        </Currency>
-        <Currency>
-            <ID>DEM</ID>
-            <Units>1</Units>
-            <Rate>0.28865000</Rate>
+            <Rate>0.02540000</Rate>
         </Currency>
         <Currency>
             <ID>DKK</ID>
             <Units>1</Units>
-            <Rate>0.07560000</Rate>
+            <Rate>0.09420000</Rate>
         </Currency>
         <Currency>
-            <ID>EEK</ID>
+            <ID>EGP</ID>
             <Units>1</Units>
-            <Rate>0.03610000</Rate>
-        </Currency>
-        <Currency>
-            <ID>ESP</ID>
-            <Units>100</Units>
-            <Rate>0.33930200</Rate>
+            <Rate>0.07460000</Rate>
         </Currency>
         <Currency>
             <ID>EUR</ID>
             <Units>1</Units>
-            <Rate>0.56455100</Rate>
-        </Currency>
-        <Currency>
-            <ID>FIM</ID>
-            <Units>1</Units>
-            <Rate>0.09495070</Rate>
-        </Currency>
-        <Currency>
-            <ID>FRF</ID>
-            <Units>1</Units>
-            <Rate>0.08606530</Rate>
+            <Rate>0.70280400</Rate>
         </Currency>
         <Currency>
             <ID>GBP</ID>
             <Units>1</Units>
-            <Rate>0.90100000</Rate>
-        </Currency>
-        <Currency>
-            <ID>GRD</ID>
-            <Units>100</Units>
-            <Rate>0.16567900</Rate>
+            <Rate>0.84300000</Rate>
         </Currency>
         <Currency>
             <ID>HKD</ID>
             <Units>1</Units>
-            <Rate>0.08080000</Rate>
+            <Rate>0.06650000</Rate>
         </Currency>
         <Currency>
             <ID>HRK</ID>
             <Units>1</Units>
-            <Rate>0.07340000</Rate>
+            <Rate>0.09200000</Rate>
         </Currency>
         <Currency>
             <ID>HUF</ID>
             <Units>100</Units>
-            <Rate>0.21200000</Rate>
-        </Currency>
-        <Currency>
-            <ID>IEP</ID>
-            <Units>1</Units>
-            <Rate>0.71683200</Rate>
+            <Rate>0.23500000</Rate>
         </Currency>
         <Currency>
             <ID>ILS</ID>
             <Units>1</Units>
-            <Rate>0.14900000</Rate>
+            <Rate>0.14700000</Rate>
         </Currency>
         <Currency>
-            <ID>ITL</ID>
+            <ID>INR</ID>
+            <Units>1</Units>
+            <Rate>0.00828000</Rate>
+        </Currency>
+        <Currency>
+            <ID>ISK</ID>
             <Units>100</Units>
-            <Rate>0.02915660</Rate>
+            <Rate>0.44000000</Rate>
         </Currency>
         <Currency>
             <ID>JPY</ID>
             <Units>100</Units>
-            <Rate>0.50900000</Rate>
+            <Rate>0.49300000</Rate>
         </Currency>
         <Currency>
-            <ID>KGS</ID>
-            <Units>1</Units>
-            <Rate>0.01280000</Rate>
+            <ID>KRW</ID>
+            <Units>100</Units>
+            <Rate>0.04860000</Rate>
         </Currency>
         <Currency>
             <ID>KZT</ID>
             <Units>1000</Units>
-            <Rate>4.33000000</Rate>
+            <Rate>3.35000000</Rate>
         </Currency>
         <Currency>
             <ID>LTL</ID>
             <Units>1</Units>
-            <Rate>0.15800000</Rate>
+            <Rate>0.20400000</Rate>
         </Currency>
         <Currency>
-            <ID>LUF</ID>
+            <ID>MAD</ID>
             <Units>1</Units>
-            <Rate>0.01399490</Rate>
+            <Rate>0.06260000</Rate>
         </Currency>
         <Currency>
             <ID>MDL</ID>
             <Units>1</Units>
-            <Rate>0.04920000</Rate>
-        </Currency>
-        <Currency>
-            <ID>MTL</ID>
-            <Units>1</Units>
-            <Rate>1.40000000</Rate>
-        </Currency>
-        <Currency>
-            <ID>NLG</ID>
-            <Units>1</Units>
-            <Rate>0.25618200</Rate>
+            <Rate>0.03990000</Rate>
         </Currency>
         <Currency>
             <ID>NOK</ID>
             <Units>1</Units>
-            <Rate>0.06950000</Rate>
+            <Rate>0.08370000</Rate>
         </Currency>
         <Currency>
             <ID>NZD</ID>
             <Units>1</Units>
-            <Rate>0.26100000</Rate>
+            <Rate>0.42300000</Rate>
         </Currency>
         <Currency>
             <ID>PLN</ID>
             <Units>1</Units>
-            <Rate>0.15300000</Rate>
+            <Rate>0.16900000</Rate>
         </Currency>
         <Currency>
-            <ID>PTE</ID>
-            <Units>100</Units>
-            <Rate>0.28159700</Rate>
-        </Currency>
-        <Currency>
-            <ID>ROL</ID>
-            <Units>1000</Units>
-            <Rate>0.02300000</Rate>
+            <ID>RON</ID>
+            <Units>1</Units>
+            <Rate>0.15700000</Rate>
         </Currency>
         <Currency>
             <ID>RUB</ID>
             <Units>1</Units>
-            <Rate>0.02190000</Rate>
+            <Rate>0.01560000</Rate>
         </Currency>
         <Currency>
             <ID>SEK</ID>
             <Units>1</Units>
-            <Rate>0.06120000</Rate>
+            <Rate>0.07810000</Rate>
         </Currency>
         <Currency>
             <ID>SGD</ID>
             <Units>1</Units>
-            <Rate>0.35300000</Rate>
+            <Rate>0.40700000</Rate>
         </Currency>
         <Currency>
-            <ID>SKK</ID>
+            <ID>TND</ID>
             <Units>1</Units>
-            <Rate>0.01290000</Rate>
+            <Rate>0.31000000</Rate>
+        </Currency>
+        <Currency>
+            <ID>TRY</ID>
+            <Units>1</Units>
+            <Rate>0.24800000</Rate>
+        </Currency>
+        <Currency>
+            <ID>TWD</ID>
+            <Units>1</Units>
+            <Rate>0.01720000</Rate>
         </Currency>
         <Currency>
             <ID>UAH</ID>
             <Units>1</Units>
-            <Rate>0.11600000</Rate>
+            <Rate>0.06230000</Rate>
         </Currency>
         <Currency>
             <ID>USD</ID>
             <Units>1</Units>
-            <Rate>0.63000000</Rate>
+            <Rate>0.51500000</Rate>
         </Currency>
         <Currency>
             <ID>UZS</ID>
-            <Units>1000</Units>
-            <Rate>0.84000000</Rate>
+            <Units>100</Units>
+            <Rate>0.02340000</Rate>
         </Currency>
         <Currency>
             <ID>XAU</ID>
             <Units>1</Units>
-            <Rate>165.24000000</Rate>
+            <Rate>615.81700000</Rate>
         </Currency>
         <Currency>
             <ID>XDR</ID>
             <Units>1</Units>
-            <Rate>0.79970000</Rate>
+            <Rate>0.79200000</Rate>
+        </Currency>
+        <Currency>
+            <ID>ZAR</ID>
+            <Units>1</Units>
+            <Rate>0.04950000</Rate>
         </Currency>
     </Currencies>
 </CRates>
