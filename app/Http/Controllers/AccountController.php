@@ -87,7 +87,7 @@ class AccountController extends Controller
 
     private function getCurrencies(): array
     {
-        $xml = simplexml_load_string(file_get_contents('https://www.bank.lv/vk/xml.xml?date=20010323'));
+        $xml = simplexml_load_string(file_get_contents('https://www.bank.lv/vk/xml.xml?date=20131231'));
         $currencies = $xml->Currencies->Currency;
         $ids = array();
         foreach ($currencies as $currency) {
